@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Jogo da Velha</title>
+<body>
+
+    <audio id="sword">
+        <source src="./sound/sword.mp3"><source>
+    </audio>
+    <audio id="shield">
+        <source src="./sound/shield.mp3"><source>
+    </audio>
+    <audio id="celebration">
+        <source src="./sound/celebration.mp3"><source>
+    </audio>
+    
+    <h1>Jogo da Velha Medieval</h1>
+    <div class="resertGame">
+        <div class="rsJogo">
+            <h3>Resetar Jogo</h3>
+        </div>
+        <div class="rsPontos">
+            <h3>Resetar Pontuação</h3>
+        </div>
+    </div>
+    <div class="flags">
+        <img src="./img/flag.png" alt="">
+        <img src="./img/flag.png" alt="">
+        <img src="./img/flag.png" alt="">
+        <img src="./img/flag.png" alt="">
+        <img src="./img/flag.png" alt="">
+    </div>
+    <div class="blocks">
+        <div class="b1 b">0</div>
+        <div class="b2 b"></div>
+        <div class="b3 b"></div>
+        <div class="b4 b"></div>
+        <div class="b5 b">0</div>
+    </div>
+    <div class="stage">
+            <div id="0" class="square"></div>
+            <div id="1" class="square"></div>
+            <div id="2" class="square"></div>
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+    </div>
+
+
+<script src="./js/game.js"></script>
+<script src="./js/interface.js"></script>
+</body>
+</html>
