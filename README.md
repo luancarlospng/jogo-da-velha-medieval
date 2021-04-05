@@ -1,5 +1,5 @@
 # jogo-da-velha-medieval
-Jogo da Velha Medieval em html , css e javascript+
+Jogo da Velha Medieval em html , css e javascript
 
 Página para o jogo: https://luanferreira93.github.io/jogo-da-velha-medieval/
 
